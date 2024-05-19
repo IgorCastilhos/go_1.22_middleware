@@ -1,0 +1,8 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=GoLand
+
+###
+### Basic authorization.
+GET http://localhost:7100/foo?auth=secret
+Authorization: secret
